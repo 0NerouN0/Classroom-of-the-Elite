@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.fix {
+    max-width: 1040px;
+    height: 100%;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: url(/img/Classroom\ of\ the\ Elite\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    height: 80px;
+    background: linear-gradient(180deg, rgba(109, 69, 206, 0.72) 0%, rgba(80, 50, 153, 0.83) 100%);
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logo {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 42px;
+    color: #fff;
+}
+
+.gay {
+    color: #E78EA0;
+}
+
+.nav {}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list-child a {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.nav-list :not(:last-child) {
+    margin-right: 58px;
+}
+
+.active a {
+    color: #fff;
+}
+
+.nav-social {}
+
+.nav-social-list {
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-social-list-child:not(:last-child) {
+    margin-right: 40px;
+}
+
+.main {
+    padding: 20px 0 30px 0;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.profile {
+    width: 480px;
+    height: 646px;
+    background: linear-gradient(180deg, rgba(109, 69, 206, 0.72) 0%, rgba(80, 50, 153, 0.83) 100%);
+    border-radius: 25px;
+}
+
+.gif-up {
+    background: url(/img/Ayanokouji\ vs\ Prez.gif);
+    border-radius: 25px 25px 0px 0px;
+    width: 480px;
+    height: 110px;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-about-me {
+    position: absolute;
+}
+
+.ava-nik {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 46px;
+    top: -38px;
+}
+
+.avatar {
+    border: 7px solid rgba(136, 107, 207, 0.8);
+    box-shadow: 0px 0px 24px #876BC9;
+    background: url(/img/Ayanokouji.gif);
+    width: 130px;
+    height: 130px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+
+.main-about-me-link-prof {
+    display: flex;
+    flex-direction: column;
+    margin-top: 22px;
+}
+
+.name {
+    color: #fff;
+    width: 103px;
+    height: 41px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 41px;
+}
+
+.faceit-text {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.svg-link {
+    display: flex;
+    align-items: center;
+}
+
+.svg-img {
+    height: 17px;
+    width: 17px;
+}
+
+.main-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 480px;
+    height: 98px;
+    background: rgba(136, 107, 207, 0.8);
+    margin-top: 102px;
+    gap: 36px;
+}
+
+.steam-profile {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 26px;
+    color: white;
+    background: linear-gradient(180deg, #E78EA0 0%, #DD677F 100%);
+    border-radius: 40px;
+    padding: 16px 52px;
+    gap: 4px;
+}
+
+.telegram {
+    display: flex;
+    align-items: center;
+    padding: 16px 52px;
+    border-radius: 40px;
+    border: 1px solid #DD677F;
+}
+
+.steam-profile-svg {
+    margin-right: 4px;
+}
+
+.about-me {
+    padding: 20px 46px 49px 46px;
+}
+
+.about-h1 {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 26px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about-p {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 139.52%;
+    color: rgba(255, 255, 255, 0.50);
+}
+
+.profile-last-section {
+    position: absolute;
+    left: 47px;
+    top: 470px;
+}
+
+.joined {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 388px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4px;
+    border-bottom: 1px solid rgba(231, 142, 160, 0.32);
+    margin-bottom: 4px;
+}
+
+.joined-text {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: white;
+}
+
+.joined-number {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: white;
+}
+
+.music-player {
+    width: 480px;
+    height: 310px;
+    background: url(/img/Ayanokouji\ Kiyotaka.gif);
+    border-radius: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 144px 38px 0 38px;
+    margin-bottom: 26px;
+}
+
+.player-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 404px;
+    height: 136px;
+    background: rgba(85, 55, 154, 0.90);
+    border-radius: 27px;
+    padding: 34px 53px;
+}
+
+.music-text {
+    margin-right: 45px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 68px;
+    background: #FFFFFF;
+    border-radius: 97px;
+    cursor: pointer;
+}
+
+.m_play {
+    background: url(/img/music-player/play.svg);
+    width: 68px;
+    height: 68px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.music-h1 {
+    color: white;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 29px;
+    line-height: 36px;
+}
+
+.music-p {
+    display: flex;
+    align-items: center;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.79);
+}
+
+.music-svg {
+    width: 17px;
+    height: 18px;
+}
+
+.counter-strike {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(109, 69, 206, 0.72) 0%, rgba(80, 50, 153, 0.83) 100%);
+    border-radius: 25px;
+    width: 480px;
+    height: 310px;
+    padding: 24px 154px 26px 30px;
+}
+
+.counter-strike-h1 {
+    display: flex;
+    align-items: center;
+    padding: 6px 20px;
+    background: linear-gradient(180deg, #E78EA0 0%, #DD677F 100%);
+    border-radius: 10px;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 24px;
+    color: white;
+    gap: 4px;
+    margin-bottom: 21px;
+}
+
+.counter-strike-png {
+    height: 24px;
+    width: 24px;
+    margin-right: 5px;
+}
+
+img {
+    border-style: none;
+}
+
+.counter-strike-stats {
+    display: flex;
+}
+
+.counter-strike-stats-top {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-right: 87px;
+}
+
+.wins {
+    margin-bottom: 4px;
+}
+
+.stats-h1 {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 31px;
+    color: #C9C9C9;
+    margin-bottom: 4px;
+}
+
+.stats-numb {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.counter-strike-stats-top {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-right: 87px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 13px 408px;
+    background: linear-gradient(180deg, rgba(109, 69, 206, 0.72) 0%, rgba(80, 50, 153, 0.83) 100%);
+    border-radius: 25px;
+}
+
+.footer-info-h1 {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 43px;
+    line-height: 53px;
+    color: #FFFFFF;
+}
+
+.made-by-me {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 19px;
+    color: white;
+}
+
+.footer-text {
+    color: #E78EA0;
+}
